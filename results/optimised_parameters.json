@@ -1,0 +1,36 @@
+{
+    "pattern_threshold": 0.582658558866035,
+    "gradient_threshold": 0.21466799305470494,
+    "pattern_overlap_score": 0.0,
+    "sl_n_bars": 31,
+    "tp_n_bars": 20,
+    "tpfrac": 0.7526910039158614,
+    "open_limit": 32,
+    "min_risk_reward": 1.2551731569722127,
+    "entry_bar_position_threshold": 0.09412448846191773,
+    "limit_order_expiry": 0,
+    "mean_reversion_or_breakout": "mean_reversion",
+    "use_tp": true,
+    "indicators": [
+        {
+            "name": "rsi",
+            "interval": 15,
+            "entry_value": 14,
+            "period_1": 2,
+            "period_2": 3,
+            "period_3": 3,
+            "gradient_threshold": 0.0,
+            "use_gradient": false
+        },
+        {
+            "name": "adx",
+            "interval": 15,
+            "entry_value": 12,
+            "period_1": 16,
+            "period_2": 3,
+            "period_3": 3,
+            "gradient_threshold": 0.0,
+            "use_gradient": false
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "backtesting_url": "",
+    "backtesting_api_key": "",
+    "r2_url": "",
+    "r2_username": "",
+    "r2_password": "",
+    "r2_client_id": "",
+    "model": [],
+    "close_open_trades": false,
+    "trade_fee": 0,
+    "financing_fee": 0,
+    "open_trade_limit": 5,
+    "fast_optimisation": true,
+    "optimisation_metric": "bps",
+    "sl_n_bars_min": 1000,
+    "sl_n_bars_max": 1000,
+    "tpfrac_min": 0.5,
+    "tpfrac_max": 5,
+    "limit_order_expiry_min": 50,
+    "limit_order_expiry_max": 50,
+    "min_risk_reward_min": 0,
+    "min_risk_reward_max": 0,
+    "use_tp": true,
+    "indicators": [
+        {
+            "name": "rsi",
+            "interval_min": 15,
+            "interval_max": 15,
+            "entry_value_min": 0,
+            "entry_value_max": 40,
+            "period_1_min": 2,
+            "period_1_max": 30,
+            "use_gradient": false
+        }
+    ],
+    "signals": [
+        {"custom_signals_1" : [
+            {"datetime": "2021-11-17T02:00:00", "signal": -0.85, "price": 81, "height": 4},
+            {"datetime": "2021-11-27T00:00:00", "signal": -0.54, "price": 79.5, "height": 3},
+            {"datetime": "2021-12-01T00:00:00", "signal": 0.67, "price": 78, "height": 3.5},
+            {"datetime": "2021-12-17T23:00:00", "signal": 0.93, "price": 77.5, "height": 4}
+            
+        ]},
+        {"custom_signals_1" : [
+            {"datetime": "2021-11-12T00:00:00", "signal": -0.65, "price": 250, "height": 5},
+            {"datetime": "2021-11-24T00:00:00", "signal": -0.75, "price": 240, "height": 10},
+            {"datetime": "2021-12-01T00:00:00", "signal": 0.94, "price": 205, "height": 35}
+            
+        ]},
+        {"custom_signals_1" : [
+            {"datetime": "2021-10-18T00:00:00", "signal": 0.9, "price": 5, "height": 1},
+            {"datetime": "2021-11-01T00:00:00", "signal": 0.7, "price": 5.1, "height": 0.5},
+            {"datetime": "2021-11-05T00:00:00", "signal": -0.58, "price": 5.85, "height": 1}
+        ]}
+    ]        
+}
