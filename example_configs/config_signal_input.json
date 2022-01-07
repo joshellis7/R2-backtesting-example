@@ -1,0 +1,49 @@
+{
+    "backtesting_url": "",
+    "backtesting_api_key": "",
+    "r2_url": "",
+    "r2_username": "",
+    "r2_password": "",
+    "r2_client_id": "",
+    "model": [],
+    "close_open_trades": false,
+    "trade_fee": 0,
+    "financing_fee": 0,
+    "open_trade_limit": 5,
+    "fast_optimisation": true,
+    "optimisation_metric": "sharpe_ratio",
+    "optimise_pattern_selection": true,
+    "sl_n_bars_min": 5,
+    "sl_n_bars_max": 250,
+    "tp_n_bars_min": 250,
+    "tp_n_bars_max": 250,
+    "limit_order_expiry_min": 0,
+    "limit_order_expiry_max": 50,
+    "min_risk_reward_min": 0,
+    "min_risk_reward_max": 0,
+    "use_tp": false,
+    "indicators": [
+        {
+            "name": "all",
+            "interval_min": 15,
+            "interval_max": 1440,
+            "entry_value_min": 0,
+            "entry_value_max": 40,
+            "period_1_min": 2,
+            "period_1_max": 30,
+            "period_2_min": 2,
+            "period_2_max": 30,
+            "period_3_min": 2,
+            "period_3_max": 30,
+            "use_gradient": false
+        }
+    ],
+    "signals":
+        {
+            "2021-09-06T00:00:00": -1,
+            "2021-09-16T00:00:00": -1,
+            "2021-09-28T00:00:00": 1,
+            "2021-10-12T00:00:00": 1,
+            "2021-10-22T00:00:00": 1
+        }
+}

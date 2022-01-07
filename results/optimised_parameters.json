@@ -1,0 +1,33 @@
+{
+    "pattern_threshold": 0.75,
+    "gradient_threshold": 0.2,
+    "pattern_overlap_score": 0.0,
+    "sl_n_bars": 98,
+    "tp_n_bars": 250,
+    "tpfrac": 2.0,
+    "open_limit": 25,
+    "min_risk_reward": 0.0,
+    "entry_bar_position_threshold": 0.0,
+    "limit_order_expiry": 3,
+    "mean_reversion_or_breakout": "breakout",
+    "use_tp": false,
+    "indicators": [
+        {
+            "name": "adx",
+            "interval": 240,
+            "entry_value": 16,
+            "period_1": 9,
+            "period_2": 19,
+            "period_3": 28,
+            "gradient_threshold": 0.0,
+            "use_gradient": false
+        }
+    ],
+    "signals": {
+        "2021-09-06T00:00:00": -1,
+        "2021-09-16T00:00:00": -1,
+        "2021-09-28T00:00:00": 1,
+        "2021-10-12T00:00:00": 1,
+        "2021-10-22T00:00:00": 1
+    }
+}
